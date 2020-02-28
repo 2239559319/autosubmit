@@ -1,8 +1,8 @@
-import request from 'request';
-import fs from 'fs';
+import * as request from 'request';
+import * as fs from 'fs';
 import {headers, loginUrl, LoginData, submitUrl, SubmitData} from './api';
 
-class Stu {
+export default class Stu {
   public headers: object;
   constructor(public username: string, public password: string) {
     this.headers = headers;
@@ -89,7 +89,9 @@ class Stu {
   }
 }
 
+/*  例子
 (async(str: string) => {
   const s = new Stu('username', 'password');
   await s.run(str);
 })('this arg is geo_api_info')
+*/
