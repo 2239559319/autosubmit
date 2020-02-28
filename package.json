@@ -1,6 +1,6 @@
 {
   "name": "autosubmit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "<img src='https://img.shields.io/badge/author-%E5%B0%8F%E5%B7%9D-ff69b4.svg'><img src='https://img.shields.io/badge/python-3.7-blue.svg'><img src='https://img.shields.io/badge/vue-2-blueviolet.svg'><a href=\"https://github.com/2239559319/autosubmit/blob/master/LICENSE\"><img alt=\"GitHub license\" src=\"https://img.shields.io/github/license/2239559319/autosubmit\"></a>\r --------",
   "main": "lib/main.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/2239559319/autosubmit.git"
   },
-  "keywords": [],
+  "keywords": ["scu", "四川大学", "健康报告提交", "打卡"],
   "author": "",
   "license": "ISC",
   "bugs": {
