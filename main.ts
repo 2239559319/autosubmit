@@ -39,32 +39,7 @@ export default class Stu {
     });
     const locationObject = JSON.parse(geo_api_info);
     const submitData: SubmitData = {
-      tw: '3',
-      sfcxtz: '0',
-      sfjcbh: '0',
-      sfcxzysx: '0',
-      qksm: '',
-      sfyyjc: '0',
-      jcjgqr: '0',
-      remark: '',
-      address: locationObject.formattedAddress,
-      geo_api_info,
-      area: `${locationObject.addressComponent.province} ${locationObject.addressComponent.city} ${locationObject.addressComponent.district}`,
-      province: locationObject.addressComponent.province,
-      city: locationObject.addressComponent.city,
-      sfzx: '0',
-      sfjcwhry: '0',
-      sfjchbry: '0',
-      sfcyglq: '0',
-      gllx: '',
-      glksrq: '',
-      jcbhlx: '',
-      jcbhrq: '',
-      ismoved: '0',
-      bztcyy: '',
-      sftjhb: '0',
-      sftjwh: '0',
-      jcjg: ''
+      
     };
     
     return new Promise<string>(resolve => {
