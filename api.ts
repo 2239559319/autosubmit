@@ -42,4 +42,26 @@ export interface SubmitData {
   sftjhb: '0',        //今日是否到过或者经停湖北其他地区（除武汉）
   sftjwh: '0',        //今日是否到过或者经停武汉
   jcjg: '',
+  uid: string,      // '11111'
+  date: string,     // '20200229'
+  created: string,   // 1582906108
+  fxyy: '',       // ''
+  fjsj: '0',       // '0'
+  sfjcqz: '',     // ''
+  jcqzrq: '',     // ''
+  jcwhryfs: '',   // ''
+  jchbryfs: '',   // ''
+  xjzd: '',       // ''
+  szgj: '',       // ''
+  sfsfbh: '1',     // '0'
+  szsqsfybl: '1',  // '0'
+  sfsqhzjkk: '',  // ''
+  sqhzjkkys: '',  // ''
+  sfygtjzzfj: '1',   // '0'
+  gtjzzfjsj: '',    // ''
+  id: string,                   // 1394757,
+  gwszdd: '',       //  ''
+  sfyqjzgc: '',     //  ''
+  jrsfqzys: '',     //  ''
+  jrsfqzfy: ''      //  ''
 }
